@@ -1,0 +1,230 @@
+.clear{clear: both;}
+.left{float:left;}
+.right{float: right;}
+
+
+body{
+	background: #ED9B29 url(../images/wall.jpg) repeat;
+	color:#FFFFFF;
+	font-family: 'Fontdiner Swanky', sans-serif;
+	font-size: 20px;
+}
+
+.wrapper{
+	position: relative;
+	width: 1090px;
+	margin:0 auto;
+	margin-top: 20px; 
+}
+
+.mainPart, .secondPart{
+	width: 520px;
+}
+
+.secondPart{
+	margin-left: 50px;
+}
+
+
+
+h2{
+    font-size: 27px; 
+    text-shadow: #0F0E0E 0 0 15px;
+	width: 500px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+h3{
+	margin: 0;
+	text-align: center;
+	color: #0B0A0A;
+}
+
+p{
+	float: left;
+	width: 100px;
+	font-size: 17px;
+	font-color:  #ABA5A5;
+	text-align: left;
+	margin: 55px 0 0 35px;
+}
+
+#cart{
+	width: 425px;
+}
+
+.forSale{
+	width: 517px;
+	min-height: 200px;
+	height: 500px; 
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+
+ .myPurchases{
+	width: 517px;
+	height: 500px;
+	overflow: auto;
+} 
+
+.products{
+	width: 500px;
+	height: 130px;
+	background: #a1887f;
+	border-radius: 15px; 
+	-moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+.products:nth-child(even){
+	background: #bdbdbd;
+}
+
+
+.productInfo{
+	width: 120px;
+	padding: 23px 0 0 30px;
+	float: left;
+}
+.productInfo p{
+	width: 100px;
+	margin: 0;
+	padding: 0; 
+	padding-top: 1px; 
+
+}
+
+button, button:active, button:focus {
+    outline: none;
+}
+
+.buy{
+	height: 35px;
+    width: 60px;
+    border-radius: 10px;
+	background: #645D97;
+	float:right;
+	margin: 50px 20px 0 0;
+	font-family: inherit;
+	color:#F8F4F4;
+	font-size: 26px;
+	font-weight: bold;
+	border: none;
+}
+
+.buy:hover{
+	background: #7FB5E2;
+	color:;
+
+}
+
+
+
+.pictures{
+	float: left;
+	width: 110px;
+	height: 110px;
+	padding: 5px;
+	border: 1px solid #FAF6F6;
+	border-radius: 10px;
+	margin:9px; 
+	 -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+
+
+.applePic{
+	background: url(../images/apple.png) no-repeat;
+	background-size: 80px;
+	background-position:  center;
+}
+
+.spritePic{
+	background: url(../images/Sprite.png) no-repeat;
+	background-size: 50px;
+	background-position:  center;
+}
+
+.cocaPict{
+	background: url(../images/cola.png) no-repeat;
+	background-size: 80px;
+	background-position:  center;
+}
+
+.icePict{
+	background: url(../images/ice.png) no-repeat;
+	background-size: 80px;
+	background-position:  center;
+}
+
+.cakePict{
+	background: url(../images/cake.png) no-repeat;
+	background-size: 130px;
+	background-position:  center;
+}
+
+.hambPic{
+	background: url(../images/humb.png) no-repeat;
+	background-size: 80px;
+	background-position:  center;
+}
+
+.chipsPic{
+	background: url(../images/chips.png) no-repeat;
+	background-size: 80px;
+	background-position:  center;
+}
+
+
+#forBuy{
+	width: 85px;
+	height: 53px;
+	border-radius: 22px;
+	background: #E7E2E2;
+	margin-top: 20px;
+	font-size: 25px;
+	font-family: inherit;
+	font-weight: bold;
+}
+
+.check{
+	background: #F1F8F4;
+	width:340px;
+	position: absolute;
+	visibility: hidden;
+	left: 350px;
+	margin: 0 auto; 
+	padding: 0 15px 0 15px;
+}
+
+.check p{
+	width: 100%;
+	padding: 5px 0 5px 0;
+	font: 18px;
+	color: #0B0A0A;
+	margin:  0;
+}
+ 
+
+
+
+#checkPrice{
+	text-align: right;
+	width: 100%;
+}
+
+#firstInfoPart{
+	width:80%;
+}
+
+#secondInfoPart{
+	width:20%;
+}
+
+#secondInfoPart p{
+	text-align: right;
+}
